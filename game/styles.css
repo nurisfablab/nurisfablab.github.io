@@ -79,7 +79,7 @@ body {
 .x:hover, .o:hover {
    cursor: not-allowed;
 }
-
+@media (min-width: 600px) {
 .x_turn .cell:not(.x):not(.o):hover::before,
 .x_turn .cell:not(.x):not(.o):hover::after {
    content: '';
@@ -109,7 +109,7 @@ body {
    height: 70px !important;
    background-color: #ffbd69 !important;
 }
-
+}
 .hide {
    display: none !important;
 }
